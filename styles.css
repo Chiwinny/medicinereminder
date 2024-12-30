@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding: 0;
+  padding: 2;
   box-sizing: border-box;
 }
 
@@ -8,12 +8,16 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   background-color: #f4f4f4;
+  border: 10px solid #333; /* Page border */
 }
 
 .container {
   width: 80%;
   margin: auto;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content */
 }
 
 header {
