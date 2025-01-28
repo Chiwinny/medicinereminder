@@ -151,7 +151,6 @@ fn main() {
                 }
             }
             "2" => {
-                let today = Local::now().format("%Y-%m-%d").to_string();
                 let meds = schedule.list_today();
 
                 if meds.is_empty() {
